@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BookParadise Website - Contact Us</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="Style/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- ----Start Header---- -->
+    <div class="header">
+        <div class="container">
+            <!-- ----Start Navbar---- -->
+            <div class="navbar">
+                <div class="logo">
+                    <a href="index.html" class="logo-red"> BookParadise </a>
+                </div>    
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="index.html"> Home </a></li>
+                    <li><a href="product.html"> Products </a></li>
+                    <li><a href="about.html"> About </a></li>
+                    <li><a href="contact.html"> Contact Us </a></li>
+                </ul>
+            </nav>
+        </div>
+              <!-- ----End Navbar---- -->
+        </div>
+    </div>
+    <!-- ----Start Contact Us Form---- -->
+    <div class="wrapper">
+        <h2 class="title">Contact Us</h2>
+        <div class="contact">
+            <div id="error_message"></div>
+            <form action="" id="myform" onsubmit="return validation();">
+                <div class="input_field">
+                    <input type="text" placeholder="Name" id="name" class="mystyle">
+                </div>
+                <div class="input_field">
+                    <input type="text" placeholder="Subject" id="subject" class="mystyle">
+                </div>
+                <div class="input_field">
+                    <input type="text" placeholder="Phone" id="phone" class="mystyle">
+                </div>
+                <div class="input_field">
+                    <input type="text" placeholder="Email" id="email" class="mystyle">
+                </div>
+                <div class="input_field">
+                    <textarea type="text" placeholder="Message" id="message"></textarea>
+                </div>
+                <div class="submitbtn">
+                    <input type="submit">
+                </div>
+            </form>
+        </div>
+    </div>
+    <!-- ----End Contact Us Form---- -->
+    <!-- ----Start Footer---- -->
+   <div class="footer">
+    <div class="container">
+      <div class="row">
+          <div class="footer-col-1">
+              <a href="index.html" class="logo-white">BookParadise</a>
+          </div>
+          <div class="footer-col-2">
+              <a href="index.html" class="logo-white">BookParadise</a>
+              <p>Your One Stop Shop for all your book needs</p>
+          </div>
+          <div class="footer-col-4">
+              <h3>Follow Us</h3>
+              <ul>
+                  <li>Facebook</li>
+                  <li>Twitter</li>
+                  <li>Instagram</li>
+                  <li>Youtube</li>
+              </ul>
+          </div>
+      </div>
+         <hr>
+         <p class="Copyright">Copyright 2021 - BookParadise</p>
+    </div>
+   </div>
+  <!-- ----End Footer---- -->
+</body>
+ <!-- ----JavaScript---- -->
+ <script src="main.js"></script>
+</html>
